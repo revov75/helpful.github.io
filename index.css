@@ -1,0 +1,106 @@
+*{
+	 padding : 0;
+	 margin : 0;
+	 border : 0;
+}
+
+.blended_grid{
+	 display : block;
+	 width : 1200px;
+	 overflow : auto;
+	 margin : auto; 
+}
+.pageHeader{
+	 background-color : rgba(0, 0, 0, .5);
+	 float : left;
+	 clear : none;
+	 height : 200px;
+	 width : 1200px;	 
+	 background-image : url('http://s25.postimg.org/yqv0kmu5r/1236607_10151557868746249_1199227679_n.jpg');
+	 margin: 10;
+
+}
+.pageBarLeft{
+	 float : left;
+	 clear : none;
+	 min-width : 70px;
+	 min-height : 70px; 
+
+}
+.pageLeftTop{
+	 background-color : rgba(0, 0, 0, 0.5);
+	 float : left;
+	 clear : both;
+	 height : 300px;
+	 width : 200px; background-image: url('');background-repeat:no-repeat; background-size:200px ;margin: 10;
+
+}
+.pageLeftMid{
+	 background-color : rgba(0, 0, 0, 0.5);
+	 float : left;
+	 clear : both;
+	 height : 300px;
+	 width : 200px; background-image : url('');background-repeat:no-repeat; background-size:120px 100px; margin: 10;
+}
+.pageLeftBottom{
+	 background-color : rgba(0, 0, 0, 0.5);
+	 float : left;
+	 clear : both;
+	 height : 300px;
+	 width : 200px; margin: 10;
+}
+.pageContent{
+	 background-color : rgba(0, 0, 0, .4);
+	 float : left;
+	 clear : none;
+	 height : 650px;
+	 width : 760px; 
+}
+
+.pageBarRight{
+	 float : right;
+	 clear : none;
+	 min-width : 80px;
+	 min-height : 80px; 
+}
+.pageRightTop{
+	 background-color : rgba(0, 0, 0, 0.5);
+	 float : right;
+	 clear : both;
+	 height : 300px;
+	 width : 200px; background-image : url('');background-repeat:no-repeat; background-size:200px 420px;margin: 10;
+}
+.pageRightMid{
+	 background-color : rgba(0, 0, 0, 0.5);
+	 float : right;
+	 clear : both;
+	 height : 300px;
+	 width : 200px; background-image : url('');background-repeat:no-repeat; background-size:200px 420px; margin: 10;
+}
+.foot{
+	 background-color : rgba(0, 0, 0, 0.5);
+	 float : right;
+	 clear : both;
+	 height : 80px;
+	 width : 1200px; margin: 15;
+}
+
+body{
+	 background-image : url('http://s25.postimg.org/ys4ye1vzj/391740_793726603546_1798852516_n.jpg');
+	 background-attachment : fixed;
+	 background-size : 100% auto; background-color : rgba(0, 0, 0, .5);
+}
+
+p, h1 {  text-transform: uppercase;
+  font-size: 15px;  
+  font-family: 'Shift', sans-serif;
+  font-weight: bold; color: #fff; padding: 15px}
+  
+  a:hover {
+    color: orange;
+	font-size:2em;
+}
+a:active {
+    color: Red;
+}
+a {color: cyan; font-size: 20px}
